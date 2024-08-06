@@ -8,6 +8,7 @@
 
 .pagination {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .page-item {

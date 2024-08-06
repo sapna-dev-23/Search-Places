@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import '../styles/SearchBox.css'
-const SearchBox = ({ onSearch,query ,fetchData}) => {
+const SearchBox = ({ onSearch,query }) => {
     const inputRef = useRef(null);
 
     const handleSearch = (e) => {
@@ -25,7 +25,6 @@ const SearchBox = ({ onSearch,query ,fetchData}) => {
             placeholder="Search for places"
             value={query}
             onChange={(e) => {onSearch(e.target.value);
-                fetchData();
             }}
             ref={inputRef}
             className="search-box"

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Pagination.css'
 
-const Pagination = ({ totalPages, currentPage, onPageChange, onLimitChange ,fetchData}) => {
+const Pagination = ({ totalPages, currentPage, onPageChange, onLimitChange }) => {
     const pages = [...Array(totalPages).keys()].map(num => num + 1);
 
     return (
@@ -12,7 +12,6 @@ const Pagination = ({ totalPages, currentPage, onPageChange, onLimitChange ,fetc
                         key={page}
                         className={`page-item ${page === currentPage ? 'active' : ''}`}
                         onClick={() => {onPageChange(page);
-                            fetchData();
                         }}
                     >
                         {page}
