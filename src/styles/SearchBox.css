@@ -1,0 +1,19 @@
+
+.search-box {
+    width: 241px;
+    height: 38px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(206, 212, 218);
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.search-box:focus {
+    border-color: #7952b3;
+    box-shadow: 0 0 0 3px rgb(121 82 179 / 25%);
+}
+
+.search-box:disabled {
+    background-color: rgb(233, 236, 239);
+}

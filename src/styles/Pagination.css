@@ -1,0 +1,33 @@
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination {
+    display: flex;
+}
+
+.page-item {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.page-item.active {
+    background-color: #7952b3;
+    color: white;
+}
+
+.limit-input {
+    width: 50px;
+    height: 24px;
+    padding: 4px;
+    font-size: 12px;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 2px;
+}

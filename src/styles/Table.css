@@ -1,0 +1,26 @@
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 8px;
+    border: 1px solid rgb(222, 226, 230);
+}
+
+.table th {
+    font-weight: 700;
+}
+
+.spinner {
+    text-align: center;
+    font-size: 18px;
+}
+
+.no-result {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
